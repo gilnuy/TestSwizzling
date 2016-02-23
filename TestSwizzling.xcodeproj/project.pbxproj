@@ -15,6 +15,7 @@
 		1B550C591BF9FAFD00AB9BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B550C571BF9FAFD00AB9BD7 /* LaunchScreen.storyboard */; };
 		1B550C641BF9FAFD00AB9BD7 /* TestSwizzlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B550C631BF9FAFD00AB9BD7 /* TestSwizzlingTests.m */; };
 		1B550C6F1BF9FAFD00AB9BD7 /* TestSwizzlingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B550C6E1BF9FAFD00AB9BD7 /* TestSwizzlingUITests.m */; };
+		1B612FA31C7BF41800DEE20F /* Swizzl_Foundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B612FA21C7BF41800DEE20F /* Swizzl_Foundation.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1B550C6A1BF9FAFD00AB9BD7 /* TestSwizzlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwizzlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B550C6E1BF9FAFD00AB9BD7 /* TestSwizzlingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSwizzlingUITests.m; sourceTree = "<group>"; };
 		1B550C701BF9FAFD00AB9BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B612FA11C7BF41800DEE20F /* Swizzl_Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swizzl_Foundation.h; sourceTree = "<group>"; };
+		1B612FA21C7BF41800DEE20F /* Swizzl_Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swizzl_Foundation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				1B550C4D1BF9FAFD00AB9BD7 /* AppDelegate.m */,
 				1B550C4F1BF9FAFD00AB9BD7 /* ViewController.h */,
 				1B550C501BF9FAFD00AB9BD7 /* ViewController.m */,
+				1B612FA11C7BF41800DEE20F /* Swizzl_Foundation.h */,
+				1B612FA21C7BF41800DEE20F /* Swizzl_Foundation.m */,
 				1B550C521BF9FAFD00AB9BD7 /* Main.storyboard */,
 				1B550C551BF9FAFD00AB9BD7 /* Assets.xcassets */,
 				1B550C571BF9FAFD00AB9BD7 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				1B550C511BF9FAFD00AB9BD7 /* ViewController.m in Sources */,
 				1B550C4E1BF9FAFD00AB9BD7 /* AppDelegate.m in Sources */,
 				1B550C4B1BF9FAFD00AB9BD7 /* main.m in Sources */,
+				1B612FA31C7BF41800DEE20F /* Swizzl_Foundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				1B550C751BF9FAFD00AB9BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B550C761BF9FAFD00AB9BD7 /* Build configuration list for PBXNativeTarget "TestSwizzlingTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				1B550C781BF9FAFD00AB9BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B550C791BF9FAFD00AB9BD7 /* Build configuration list for PBXNativeTarget "TestSwizzlingUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				1B550C7B1BF9FAFD00AB9BD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
